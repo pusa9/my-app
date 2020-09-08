@@ -22,7 +22,7 @@ pipeline{
 					
 						nexusArtifactUploader artifacts: [[artifactId: 'myweb', classifier: '', file: 'target/my-app-0.0.7.war', type: 'war']], 
 							credentialsId: 'nexus3',
-							groupId: 'org.springframework.boot', 
+							groupId: 'in.javahome', 
 							nexusUrl: '172.31.2.179:8081', 
 							nexusVersion: 'nexus3',
 							protocol: 'http', 
